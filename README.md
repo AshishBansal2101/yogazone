@@ -12,7 +12,8 @@ Hi! My name is **Ashish**, I have created this website to learn complete MERN ST
 
 Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
 
-**Payment Mode**
+## Payment Gateway
+
 Payment is processed through stripe so you have to provide valid card details although money will not deduct from the card.
 
 You can use:
