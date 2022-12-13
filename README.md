@@ -12,23 +12,16 @@ Hi! My name is **Ashish**, I have created this website to learn complete MERN ST
 
 Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to use the app.
 
-**Essential Variables**
-PORT=
-DB*URI =
-STRIPE_API_KEY=
-STRIPE_SECRET_KEY=
-JWT_SECRET=
-JWT_EXPIRE=
-COOKIE_EXPIRE=
-SMPT_SERVICE =
-SMPT_MAIL=
-SMPT_PASSWORD=
-SMPT_HOST=
-SMPT_PORT=
-CLOUDINARY_NAME
-CLOUDINARY_API_KEY
-CLOUDINARY_API_SECRET
-\_fill each filed with your info respectively*
+**Payment Mode**
+Payment is processed through stripe so you have to provide valid card details although money will not deduct from the card.
+
+You can use:
+Card Number : 5555 5555 5555 4444 (default card number for MasterCard)
+Expiry: 04/24  (Any valid date in future)
+CVV : 231 (Any random three digits)
+
+(If payment page doesn't load  just simply refresh the page it may be because stripe doesn't give a response)
+
 
 ## Author
 
